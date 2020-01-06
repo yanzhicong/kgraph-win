@@ -1,10 +1,10 @@
 
-This repo is modified to work under Windows with Python3.7 and Visual Studio
+This repo is modified to work under Windows with Python3.7 and Visual Studio 2015(vc140)
 
 
 # Note : Build Boost on windows machine
 
-Its a really tough thing, for the pre-build installer on Boost website are built with python2 and do not support python3, I need to rebuild it from the source. I summaries the right step in the following:
+It's a really tough work, for the pre-build installer on Boost website are built with python2 and do not support python3, I need to rebuild it from the source. I summary the right steps in the following:
 
 1. Download boost 1.64.0 source code zip and unzip into any position(please make sure is the right version).
 2. Modify the following file: .\libs\python\src\converter\builtin_converters.cpp(51)
